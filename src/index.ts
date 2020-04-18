@@ -1,8 +1,8 @@
 //Calculate the Tip
 function calculateTip() {
-    var amountofBill = document.getElementById("bill").value;
-    var service = document.getElementById("service").value;
-    var sharedByPeople = document.getElementById("people").value;
+    const amountofBill = document.querySelector<HTMLInputElement>("#bill")!.value; //Billamount
+    const service = document.querySelector<HTMLInputElement>("#service")!.value; // Percentage of Service
+    const sharedByPeople = document.querySelector<HTMLInputElement>("#people")!.value; //Number of People
   
     //check input -> if user wrote sometinh in input field or choosed an option  
     if (amountofBill === "" || service  == 0) {
