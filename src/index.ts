@@ -3,6 +3,7 @@ function calculateTip() {
     const amountofBill = document.querySelector<HTMLInputElement>("#bill")!.value; //Billamount
     const service = document.querySelector<HTMLInputElement>("#service")!.value; // Percentage of Service
     var sharedByPeople = document.querySelector<HTMLInputElement>("#people")!.value; //Number of People
+
   
     //check input -> if user wrote sometinh in input field or choosed an option  
     if (amountofBill === "" || service  == `${0}`) {
@@ -18,7 +19,7 @@ function calculateTip() {
     }
     
     //Calculate the actual tip
-    var total = (amountofBill * service) / sharedByPeople;
+    var total = (<any>amountofBill * <any>service) / <any>sharedByPeople;
     //round to two decimal places
     total = Math.round(total * 100) / 100;
     //next line allows us to always have two digits after decimal point
