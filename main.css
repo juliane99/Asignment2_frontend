@@ -48,7 +48,7 @@ body {
   
   #bill:focus {
     background: #fff;
-    border: 3px solid #2980b9;
+    border: 1px solid #AD133A;
     outline: none;
   }
   
@@ -60,6 +60,12 @@ body {
     background-color: #f7f7f7;
     font-size: 14px;
   }
+
+  #people:focus {
+    background: #fff;
+    border: 1px solid #AD133A;
+    outline: none;
+  }
   
   .dollarSign {
     display: inline;
@@ -69,7 +75,7 @@ body {
     padding: 13px 13px 20px 20px;
     margin-left: 20px;
     font-size: 25px;
-    outline: 1px dashed  #AD133A;
+    border: 1px solid #AD133A;
   }
   
   button {
