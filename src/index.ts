@@ -1,3 +1,8 @@
+const button = document.querySelector<HTMLElement>('#calculate');
+button!.onclick = () => {
+  calculateTip();
+}
+
 //Calculate the Tip
 function calculateTip() {
     const amountofBill = document.querySelector<HTMLInputElement>("#bill")!.value; //Billamount
@@ -35,11 +40,7 @@ function calculateTip() {
   document.getElementById("each")!.style.display = "none";
   
   //click to call function
-  document.getElementById("calculate")!.onclick = function() {
-    calculateTip();
-  
-  };
-  //const button = document.querySelector<HTMLElement>('#calculate');
-//button!.onclick = () => {
-  //calculateTip();
-//}
+  //document.getElementById("calculate")!.onclick = function() {
+    //calculateTip();
+//};
+
