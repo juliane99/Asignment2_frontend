@@ -1,8 +1,7 @@
   import { onload } from './onload';
   import { calculateTip } from './calculateTip';
 
-  onload();
-
+onload();
 
 const button = document.querySelector<HTMLElement>('#calculate');
 button!.onclick = () => {
