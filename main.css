@@ -110,7 +110,6 @@ body {
   #totalTip:before {
     content: "Tip amount";
     font-size: 20px;
-    font-weight: bold;
     display: block;
     text-transform: uppercase;
   }
@@ -122,6 +121,5 @@ body {
   
   #totalTip small {
     font-size: 20px;
-    font-weight: bold;
     display: block;
   }
