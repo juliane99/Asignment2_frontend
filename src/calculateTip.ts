@@ -19,7 +19,7 @@ export function calculateTip() {
     }
     
     //Calculate the actual tip
-    var total = (<any>amountofBill * <any>service) / <any>sharedByPeople;
+    var total = (+amountofBill * +service) / +sharedByPeople;
     //round to two decimal places
     total = Math.round(total * 100) / 100;
     //next line allows us to always have two digits after decimal point
