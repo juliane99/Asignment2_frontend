@@ -27,5 +27,5 @@ export function calculateTip() {
     //Show the tip 
     document.getElementById("totalTip")!.style.display = "block";
     document.querySelector<HTMLElement>("#tip")!.innerHTML = `${total}`;
-  
+    
   }
