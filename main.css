@@ -1,3 +1,5 @@
+/* --------- STYLE --------*/
+
 body {
   font-family: 'Open Sans', sans-serif;
     background: #F7EFE9;
@@ -36,6 +38,8 @@ body {
   form input[type="text"] {
     width: 90px;
   }
+
+     /* --------- INPUT FIELDS --------*/
   
   input {
     padding-left: 20px;
@@ -80,6 +84,9 @@ body {
     border-radius: 5px;
   }
   
+
+  /* --------- BUTTONS --------*/
+
   .button {
     text-transform: uppercase;
     font-weight: bold;
@@ -118,6 +125,8 @@ body {
 
   }
   
+/* --------- TIP --------*/
+
   #totalTip {
     font-size: 30px;
     margin-top: 5px;
