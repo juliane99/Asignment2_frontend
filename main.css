@@ -1,148 +1,123 @@
 body {
   font-family: 'Open Sans', sans-serif;
-    background: #F7EFE9;
-  
-  }
-  
-  .banner {
-    overflow: hidden;
-  }
-  #container {
-    height: 465px;
-    width: 360px;
-    margin: 20px auto;
-    background: #C6BBB7;
-    border-radius: 20px;
-    -webkit-border-radius: 20px;
-    -moz-border-radius: 20px;
-  }
-  
-  h1 {
-    color:#C6BBB7;
-    margin: 0;
-    padding: 10px 100px;
-    text-transform: uppercase;
-    font-size: 30px;
-    font-weight: bold;
-    border-top-left-radius: 20px;
-    border-top-right-radius: 20px;
-    text-align: center;
-  }
-  
-  p {
-    text-align: center;
-    font-weight: bold;
-  }
-  
-  .center{
+  background: #B5D0EB;
+}
 
-    text-align: center;
-  }
+#container {
+  height: 500px;
+  width: 360px;
+  margin: 20px auto;
+  background: #F7F3F0;
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+}
 
-  form input[type="text"] {
-    width: 90px;
-  }
-  
-  input {
-    padding-left: 20px;
-  }
-  
-  #bill {
-    font-size: 14px;
-    background-color: #f7f7f7;
-    width: 60%;
-    padding: 5px 5px 8px 8px;
-  }
-  
-  #bill:focus {
-    background: #fff;
-    border: 1px solid #F7EFE9;
-    outline: none;
-  }
-  
-  #people {
-    width: 60%;
-    padding: 5px 5px 8px 8px;
-    margin-left: 20px;
-    background-color: #f7f7f7;
-    font-size: 14px;
-  }
+h1 {
+  background: #484E4E;
+  color: white;
+  margin: 0;
+  padding: 10px 100px;
+  text-transform: uppercase;
+  font-size: 18px;
+  font-weight: normal;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
 
-  #people:focus {
-    background: #fff;
-    border: 1px solid #F7EFE9;
-    outline: none;
-  }
-  
-  .dollarSign {
-    display: inline;
-  }
-  
+p {
+  padding-left: 20px;
+  font-weight: bold;
+  color: 484E4E;
+}
+
+form input[type="text"] {
+  width: 90px;
+}
+
+input {
+  padding-left: 20px;
+}
+
+#bill {
+  font-size: 14px;
+  color: red;
+  background-color: #f7f7f7;
+  width: 60%;
+  padding: 5px 5px 8px 8px;
+}
+
+#bill:focus {
+  background: #fff;
+  border: 3px solid #2980b9;
+  outline: none;
+}
+
+#people {
+  width: 60%;
+  padding: 5px 5px 8px 8px;
+  margin-left: 20px;
+  color: red;
+  background-color: #f7f7f7;
+  font-size: 14px;
+}
+
+
 #service {
-    padding: 13px 13px 20px 20px;
-    margin-left: 20px;
-    font-size: 25px;
-    border: 1px solid #F7EFE9;
-    border-radius: 5px;
-  }
-  
-  .button {
-    text-transform: uppercase;
+  padding: 13px 13px 20px 20px;
+  margin-left: 20px;
+  font-size: 18px;
+}
+
+.button {
+  text-transform: uppercase;
     font-weight: bold;
     display: block;
     margin: 15px auto;
-    background: #786E6a;
+    background: #484E4E;
     border-radius: 6px;
     font-size: 15px;
     color: white;
-  }
-  
-  .button:hover {
-    background: #C7a48B;
-    
-  }
-  
-  .button:active {
-    position: relative;
-    top: 1px;
-  }
-  .button-big {
-    width: 180px;
-    height: 45px;
+}
 
-  }
-  .button-small {
-    width: 180px;
-    height: 25px;
-    font-size: 12px;
-  }
-  .button-banner {
-    width: 130px;
-    height: 30px;
-    float: left;
-    background: #C6BBB7;
+.button:hover {
+  background: #037272;
+}
 
-  }
-  
-  #totalTip {
-    font-size: 30px;
-    margin-top: 5px;
-    text-align: center;
-  }
-  
-  #totalTip:before {
-    content: "Bill including tip";
-    font-size: 20px;
-    display: block;
-    text-transform: uppercase;
-  }
-  
-  #totalTip sup {
-    font-size: 20px;
-    top: -18px;
-  }
-  
-  #totalTip small {
-    font-size: 20px;
-    display: block;
-  }
+.button:active {
+  position: relative;
+  top: 1px;
+}
+.button-big {
+  width: 180px;
+  height: 45px;
+
+}
+.button-small {
+  width: 180px;
+  height: 25px;
+  font-size: 12px;
+}
+
+#totalTip {
+  font-size: 18px;
+  margin-top: 5px;
+  text-align: center;
+}
+
+#totalTip:before {
+  content: "Bill including tip";
+  font-size: 18px;
+  display: block;
+  text-transform: uppercase;
+}
+
+#totalTip sup {
+  font-size: 18px;
+  top: -18px;
+}
+
+#totalTip small {
+  font-size: 18px;
+  display: block;
+}
