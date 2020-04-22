@@ -8,7 +8,8 @@
 </head>
 <body>
   <h1>Tip Calculator</h1>
-    <div id="container">
+  <button id="show" class="button button-small"> Start Calculating?</button>
+    <div id="container" style="display: none">
         <div id="calculator">
           <form>
             <p>How much was your bill?
@@ -29,7 +30,7 @@
           </form>
           <p>How many people are sharing the bill?</p>
           <input id="people" type="text" placeholder="Number of People">
-          <button type="button" id="calculate">Calculate the Tip</button>
+          <button type="button" class="button button-big" id="calculate">Calculate the Tip</button>
       
         </div>
         <!--calculator end-->
@@ -41,7 +42,7 @@
       
       </div>
       <!--container end-->
-      <button id="show"> Done! :)</button>
+     
     <script src="./build/bundle.js"></script>
 </body>
 </html>

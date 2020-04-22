@@ -77,27 +77,35 @@ body {
     border-radius: 5px;
   }
   
-  button {
+  .button {
     text-transform: uppercase;
     font-weight: bold;
     display: block;
     margin: 15px auto;
     background: #786E6a;
     border-radius: 5px;
-    width: 180px;
-    height: 45px;
     font-size: 15px;
     color: white;
   }
   
-  button:hover {
+  .button:hover {
     background: #C7a48B;
     
   }
   
-  button:active {
+  .button:active {
     position: relative;
     top: 1px;
+  }
+  .button-big {
+    width: 180px;
+    height: 45px;
+
+  }
+  .button-small {
+    width: 360px;
+    height: 25px;
+    font-size: 12px;
   }
   
   #totalTip {
