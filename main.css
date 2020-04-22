@@ -1,18 +1,20 @@
 body {
   font-family: 'Open Sans', sans-serif;
-    background: white;
+    background: #F7EFE9;
   
   }
   
+  .banner {
+    overflow: hidden;
+  }
   #container {
-    height: 455px;
+    height: 465px;
     width: 360px;
     margin: 20px auto;
-    background: #F7EFE9;
+    background: #C6BBB7;
     border-radius: 20px;
     -webkit-border-radius: 20px;
     -moz-border-radius: 20px;
-    border: 1px solid #C6BBB7;
   }
   
   h1 {
@@ -28,28 +30,27 @@ body {
   }
   
   p {
-    padding-left: 20px;
-    color: #C6BBB7;
+    text-align: center;
     font-weight: bold;
   }
   
+  .center{
+
+    text-align: center;
+  }
+
   form input[type="text"] {
     width: 90px;
   }
-
-     /* --------- INPUT FIELDS --------*/
   
   input {
-    border-radius: 5px;
-    min-width: 65%;
-    padding: 5px;
-    border: none;
-    }
+    padding-left: 20px;
+  }
   
   #bill {
     font-size: 14px;
     background-color: #f7f7f7;
-    width: 80%;
+    width: 60%;
     padding: 5px 5px 8px 8px;
   }
   
@@ -60,7 +61,7 @@ body {
   }
   
   #people {
-    width: 80%;
+    width: 60%;
     padding: 5px 5px 8px 8px;
     margin-left: 20px;
     background-color: #f7f7f7;
@@ -81,29 +82,23 @@ body {
     padding: 13px 13px 20px 20px;
     margin-left: 20px;
     font-size: 25px;
-    border: 1px solid #C6BBB7;
+    border: 1px solid #F7EFE9;
     border-radius: 5px;
-    color: #C6BBB7;
   }
   
-
-  /* --------- BUTTONS --------*/
-
   .button {
     text-transform: uppercase;
     font-weight: bold;
     display: block;
     margin: 15px auto;
-    background: #F7EFE9;
+    background: #786E6a;
     border-radius: 6px;
     font-size: 15px;
-    color: #C6BBB7;
-    border: 1px solid #C6BBB7;
+    color: white;
   }
   
   .button:hover {
-    background: #C6BBB7;
-    color: white;
+    background: #C7a48B;
     
   }
   
@@ -121,13 +116,18 @@ body {
     height: 25px;
     font-size: 12px;
   }
-/* --------- TIP --------*/
+  .button-banner {
+    width: 130px;
+    height: 30px;
+    float: left;
+    background: #C6BBB7;
 
+  }
+  
   #totalTip {
     font-size: 30px;
     margin-top: 5px;
     text-align: center;
-    color:#C6BBB7;
   }
   
   #totalTip:before {
@@ -135,17 +135,14 @@ body {
     font-size: 20px;
     display: block;
     text-transform: uppercase;
-    color:#C6BBB7;
   }
   
   #totalTip sup {
     font-size: 20px;
     top: -18px;
-    color:#C6BBB7;
   }
   
   #totalTip small {
     font-size: 20px;
     display: block;
-    color:#C6BBB7;
   }
