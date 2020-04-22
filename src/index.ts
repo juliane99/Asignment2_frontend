@@ -1,6 +1,6 @@
   import { onload } from './onload';
   import { calculateTip } from './calculateTip';
-  import {showmyContainer} from './showContainer';
+  import {hideContainer} from './hideTheContainer';
 
 onload();
 
@@ -11,5 +11,5 @@ button!.onclick = () => {
 
 const button2 = document.querySelector<HTMLElement>('#show');
 button2!.onclick = () => {
-  showmyContainer();
+ hideContainer();
 }
