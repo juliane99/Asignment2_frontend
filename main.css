@@ -1,29 +1,29 @@
 body {
   font-family: 'Open Sans', sans-serif;
-    background: #AD133A;
+    background: #F7EFE9;
   
   }
   
   #container {
-    height: 550px;
+    height: 465px;
     width: 360px;
     margin: 20px auto;
-    background: #f7f7f7;
+    background: #C6BBB7;
     border-radius: 20px;
     -webkit-border-radius: 20px;
     -moz-border-radius: 20px;
   }
   
   h1 {
-   background: #e9cccc;
-    color: #AD133A;
+    color:#C6BBB7;
     margin: 0;
     padding: 10px 100px;
     text-transform: uppercase;
-    font-size: 20px;
-    font-weight: normal;
+    font-size: 30px;
+    font-weight: bold;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
+    text-align: center;
   }
   
   p {
@@ -40,7 +40,6 @@ body {
   
   #bill {
     font-size: 14px;
-    color: red;
     background-color: #f7f7f7;
     width: 60%;
     padding: 5px 5px 8px 8px;
@@ -48,7 +47,7 @@ body {
   
   #bill:focus {
     background: #fff;
-    border: 1px solid #AD133A;
+    border: 1px solid #F7EFE9;
     outline: none;
   }
   
@@ -56,14 +55,13 @@ body {
     width: 60%;
     padding: 5px 5px 8px 8px;
     margin-left: 20px;
-    color: red;
     background-color: #f7f7f7;
     font-size: 14px;
   }
 
   #people:focus {
     background: #fff;
-    border: 1px solid #AD133A;
+    border: 1px solid #F7EFE9;
     outline: none;
   }
   
@@ -75,24 +73,25 @@ body {
     padding: 13px 13px 20px 20px;
     margin-left: 20px;
     font-size: 25px;
-    border: 1px solid #AD133A;
+    border: 1px solid #F7EFE9;
+    border-radius: 5px;
   }
   
   button {
     text-transform: uppercase;
     font-weight: bold;
     display: block;
-    margin: 30px auto;
-    background: #AD133A;
+    margin: 15px auto;
+    background: #786E6a;
     border-radius: 5px;
-    width: 200px;
-    height: 50px;
-    font-size: 17px;
+    width: 180px;
+    height: 45px;
+    font-size: 15px;
     color: white;
   }
   
   button:hover {
-    background: #580502;
+    background: #C7a48B;
     
   }
   
