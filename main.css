@@ -107,7 +107,7 @@ body {
   }
   
   #totalTip:before {
-    content: "Tip amount";
+    content: "Bill including tip";
     font-size: 20px;
     display: block;
     text-transform: uppercase;

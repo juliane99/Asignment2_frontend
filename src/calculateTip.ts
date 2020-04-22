@@ -20,12 +20,13 @@ export function calculateTip() {
     
     //Calculate the actual tip
     var total = (+amountofBill * +service) / +sharedByPeople;
+    var totalbill = +amountofBill + total;
     //round to two decimal places
-    total = Math.round(total * 100) / 100;
+    totalbill = Math.round(totalbill * 100) / 100;
     //next line allows us to always have two digits after decimal point
-    total = parseFloat(total.toFixed(2));  
+    totalbill = parseFloat(totalbill.toFixed(2));  
     //Show the tip 
     document.getElementById("totalTip")!.style.display = "block";
-    document.querySelector<HTMLElement>("#tip")!.innerHTML = `${total}`;
+    document.querySelector<HTMLElement>("#tip")!.innerHTML = `${totalbill}`;
     
   }
