@@ -20,7 +20,7 @@ export function calculateTip() {
     
     //Calculate the actual tip
     var total = (+amountofBill * +service) / +sharedByPeople;
-    var totalbill = +amountofBill + total;
+    var totalbill = (+amountofBill / +sharedByPeople) + total;
     //round to two decimal places
     totalbill = Math.round(totalbill * 100) / 100;
     //next line allows us to always have two digits after decimal point
