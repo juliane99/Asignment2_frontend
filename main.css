@@ -133,7 +133,7 @@ input {
   display: none;
   width: 50%;
   height: 50%;
-  background-color: white;
+  background-color: #F7F3F0;
   z-index: 200;
   border-radius: 20px;
 }
