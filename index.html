@@ -7,9 +7,21 @@
     <title>tip calculator</title>
 </head>
 <body>
-  
-  
-  <button id="" class="button button-popup"> Calculate your Tip?</button>
+
+   <!-- POPUP -->
+   <div id="popup">
+    <a id="closePopup" href="#" class="cancel"><span></span><span></span></a>
+    <h2>How does it Work?</h2>
+    <p>1. Fillout the Amount of the bill</p>
+    <p>2. Choose a Percentage for the Servie Quality</p>
+    <p>3. Add the Number of People</p>
+    <p>4. Press the Calculate Button</p>
+    <h3>Have a Nice Evening</h3>
+</div>
+
+   <button id="popupButton" class="button button-popup">How to Calculate?</button>
+
+
    <!-- CONTAINER-->
     <div id="container"  style="display: none;">
       <h1>Tip Calculator</h1>
@@ -47,7 +59,9 @@
       <!--CONTAINER ENDS-->
 
       <!-- HIDE CONTAINER BUTTON -->
-      <button id="show" class="button button-small"> Calculate your Tip?</button>
+      <button id="show" class="button button-small">Go Calculate!</button>
+
+     
 
     <script src="./build/bundle.js"></script>
 </body>

@@ -97,9 +97,8 @@ input {
   width: 180px;
   height: 30px;
   font-size: 12px;
-  background: #037272;
+  background: #484E4E;
 }
-
 #totalTip {
   font-size: 18px;
   margin-top: 5px;
@@ -122,3 +121,60 @@ input {
   font-size: 18px;
   display: block;
 }
+
+
+/*popup*/
+.blur{
+  filter: blur(40px);
+} 
+
+#popup {
+  margin: auto;
+  display: none;
+  width: 50%;
+  height: 50%;
+  background-color: white;
+  z-index: 200;
+  border-radius: 20px;
+}
+#popup h2 {
+  color: #037272;;
+  margin-left: 30%;
+}
+#popup h3 {
+  color: #037272;;
+  
+  margin-left: 3%;
+}
+#popup p {
+  color: #037272;;
+ 
+}
+#closePopup {
+  float: right;
+  margin-top: 5%;
+  margin-right: 5%;
+}
+#closePopup span {
+  background-color: #037272;;
+}
+
+.cancel {
+  background-color: rgba(0,0,0,0);
+}
+.cancel span{
+  display: block;
+  width: 20px;
+  height: 4px;
+  border-radius: 4px;
+  background-color: white;
+}
+
+.cancel span:nth-child(1){
+  transform: translateY(0px) rotate(45deg) ;
+}
+
+.cancel span:nth-child(2){
+  transform:  translateY(-4px)rotate(135deg);
+}
+
