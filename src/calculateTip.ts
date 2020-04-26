@@ -11,7 +11,7 @@ export function calculateTip() {
       return;
     }
     //Check to see if this input is empty or less than or equal to 1 and then place each or not 
-    if (sharedByPeople === "" || sharedByPeople <= `${1}`) {
+    if (sharedByPeople <= `${1}`) {
       sharedByPeople =  `${1}`;
       document.getElementById("each")!.style.display = "none";
     } else {
