@@ -1,6 +1,6 @@
   import { onload } from './onload';
   import { calculateTip } from './calculateTip';
-  import {hideContainer} from './hideTheContainer';
+  import {showContainer} from './showTheContainer';
   import {popup} from './popUp';
 
 onload();
@@ -12,7 +12,7 @@ button!.onclick = () => {
 
 const button2 = document.querySelector<HTMLElement>('#show');
 button2!.onclick = () => {
- hideContainer();
+ showContainer();
 }
 
 popup();
